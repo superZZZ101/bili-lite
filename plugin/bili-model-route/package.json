@@ -1,0 +1,8 @@
+{
+  "name": "bili-model-route",
+  "version": "0.1.0",
+  "private": true,
+  "description": "bili-lite 模型路由插件：只让 bili-lite* 会话固定走 deepseekapi 的 flash4.1，不改全局默认模型。",
+  "type": "module",
+  "main": "./index.js"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "bili-lite",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "刷B站 + 私信投递（DSH skill 精简版）",
+  "main": "src/cli.mjs",
+  "scripts": {
+    "test": "node --test --test-isolation=none \"test/*.test.mjs\"",
+    "status": "node src/cli.mjs status",
+    "scan": "node src/cli.mjs scan",
+    "review": "node src/cli.mjs review",
+    "send": "node src/cli.mjs send",
+    "demo": "node src/cli.mjs demo"
+  },
+  "engines": { "node": ">=20" }
+}

@@ -1,0 +1,30 @@
+# 运行时数据：登录态、候选、日报、卡片墙、封面、两本日记
+state/
+reports/
+diary/
+.bili-lite/
+.huyou-app/
+
+# 凭据/密钥
+.env
+.env.*
+secrets.json
+*.pem
+*.key
+
+# 依赖与日志
+node_modules/
+*.log
+*.tmp
+
+# 操作系统 / 编辑器杂项
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# 安装脚本/实验产生的临时目录与备份
+*.installing-*/
+*.bak-*/
+*.bak
+.cache-*

@@ -1,0 +1,8 @@
+{
+  "name": "bili-lite-watch",
+  "version": "0.1.0",
+  "private": true,
+  "description": "bili-lite 私信监听插件：宿主进程常驻轮询 B 站私信，有新消息用 sessionController.prompt 注入一个回合，让 agent 实时回复。",
+  "type": "module",
+  "main": "./index.js"
+}
